@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI.csproj", "{D29DFD05-75F9-477D-912F-A66B7EE039A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07378C93-D4AD-4692-9DD3-463DCD5B52F6} = {07378C93-D4AD-4692-9DD3-463DCD5B52F6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetBook", "..\TweetBook\TweetBook.csproj", "{07378C93-D4AD-4692-9DD3-463DCD5B52F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D29DFD05-75F9-477D-912F-A66B7EE039A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29DFD05-75F9-477D-912F-A66B7EE039A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29DFD05-75F9-477D-912F-A66B7EE039A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29DFD05-75F9-477D-912F-A66B7EE039A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07378C93-D4AD-4692-9DD3-463DCD5B52F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07378C93-D4AD-4692-9DD3-463DCD5B52F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07378C93-D4AD-4692-9DD3-463DCD5B52F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07378C93-D4AD-4692-9DD3-463DCD5B52F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BD4A223-2234-4E06-8E3A-438F8854F407}
+	EndGlobalSection
+EndGlobal
